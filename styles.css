@@ -42,7 +42,32 @@ section {
 
 img {
   border-radius: 50%;
-  animation: wiggle 2s linear infinite;
+  animation: slideIn 2s ease-in, wiggle 3s 3s linear infinite;
+}
+
+@keyframes slideIn {
+  0%{
+    transform: skewX(53deg) translateX(-1400px);
+    opacity: 100;
+  }
+  60%{
+    transform: translateX(0px);
+  }
+  62%{
+    transform: skewX(0deg) translateX(30px);
+  }
+  70%{
+    transform: skew(-20deg);
+  }
+  80%{
+    transform: skew(0deg) translate(0);
+  }
+  90%{
+    transform: skew(-5deg);
+  }
+  100%{
+    transform: skew(0deg);
+  }
 }
 
 @keyframes wiggle {

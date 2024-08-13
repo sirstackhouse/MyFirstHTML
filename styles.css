@@ -24,6 +24,10 @@ body {
   top: 0;
 }
 
+#small {
+  font-size: small;
+}
+
 section {
   padding-bottom: 20px;
 }
@@ -42,7 +46,18 @@ section {
 
 img {
   border-radius: 50%;
-  animation: slideIn 2s ease-in, wiggle 3s 3s linear infinite;
+  animation: slideIn 1.5s ease-in, wiggle 4s 2.5s linear infinite;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
 }
 
 @keyframes slideIn {

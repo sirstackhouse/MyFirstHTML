@@ -1,5 +1,5 @@
 body {
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -29,6 +29,11 @@ section {
 }
 #line {
   text-decoration: underline;
+  text-decoration-color: #aeaeae;
+}
+#line2 {
+  text-decoration: underline;
+  text-decoration-color: #e34c26;
 }
 #brackets {
   color: #e34c26;

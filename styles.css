@@ -1,5 +1,5 @@
 body {
-  /* display: flex; */
+  display: flex;
   overflow: hidden;
   text-align: center;
   font-family: "Lato", sans-serif;
